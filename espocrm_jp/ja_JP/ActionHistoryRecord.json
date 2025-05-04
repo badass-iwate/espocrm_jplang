@@ -1,0 +1,30 @@
+{
+    "fields": {
+        "user": "ユーザー",
+        "action": "アクション",
+        "createdAt": "日付",
+        "userType": "ユーザータイプ",
+        "target": "ターゲット",
+        "targetType": "ターゲットタイプ",
+        "authToken": "認証トークン",
+        "ipAddress": "IPアドレス",
+        "authLogRecord": "認証ログレコード"
+    },
+    "links": {
+        "authToken": "認証トークン",
+        "authLogRecord": "認証ログレコード",
+        "user": "ユーザー",
+        "target": "ターゲット"
+    },
+    "presetFilters": {
+        "onlyMy": "自分のみ"
+    },
+    "options": {
+        "action": {
+            "read": "読み取り",
+            "update": "更新",
+            "delete": "削除",
+            "create": "作成"
+        }
+    }
+}

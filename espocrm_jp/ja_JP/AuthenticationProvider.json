@@ -1,0 +1,8 @@
+{
+    "fields": {
+        "method": "認証方法"
+    },
+    "labels": {
+        "Create AuthenticationProvider": "プロバイダーを作成"
+    }
+}

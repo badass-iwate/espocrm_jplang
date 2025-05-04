@@ -1,0 +1,32 @@
+{
+    "fields": {
+        "status": "ステータス",
+        "executeTime": "実行予定時刻",
+        "executedAt": "実行時刻",
+        "startedAt": "開始時刻",
+        "attempts": "残り試行回数",
+        "failedAttempts": "失敗した試行回数",
+        "serviceName": "サービス",
+        "method": "メソッド（非推奨）",
+        "methodName": "メソッド",
+        "scheduledJob": "スケジュールされたジョブ",
+        "scheduledJobJob": "スケジュールされたジョブ名",
+        "data": "データ",
+        "targetType": "ターゲットタイプ",
+        "targetId": "ターゲットID",
+        "number": "番号",
+        "queue": "キュー",
+        "group": "グループ",
+        "className": "クラス名",
+        "targetGroup": "ターゲットグループ",
+        "job": "ジョブ"
+    },
+    "options": {
+        "status": {
+            "Pending": "保留中",
+            "Success": "成功",
+            "Running": "実行中",
+            "Failed": "失敗"
+        }
+    }
+}

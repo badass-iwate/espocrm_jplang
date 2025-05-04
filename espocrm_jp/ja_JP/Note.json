@@ -1,0 +1,63 @@
+{
+    "fields": {
+        "post": "投稿",
+        "attachments": "添付ファイル",
+        "targetType": "対象",
+        "teams": "チーム",
+        "users": "ユーザー",
+        "portals": "ポータル",
+        "type": "タイプ",
+        "isGlobal": "グローバル",
+        "isInternal": "内部（内部ユーザー向け）",
+        "isPinned": "ピン留め",
+        "related": "関連",
+        "createdByGender": "作成者の性別",
+        "data": "データ",
+        "number": "番号"
+    },
+    "filters": {
+        "all": "すべて",
+        "posts": "投稿",
+        "updates": "更新",
+        "activity": "アクティビティ"
+    },
+    "options": {
+        "targetType": {
+            "self": "自分自身へ",
+            "users": "特定のユーザーへ",
+            "teams": "特定のチームへ",
+            "all": "すべての内部ユーザーへ",
+            "portals": "ポータルユーザーへ"
+        },
+        "type": {
+            "Post": "投稿",
+            "Create": "作成",
+            "CreateRelated": "関連作成",
+            "Update": "更新",
+            "Status": "ステータス",
+            "Assign": "割り当て",
+            "Relate": "関連付け",
+            "Unrelate": "関連解除",
+            "EmailReceived": "メール受信",
+            "EmailSent": "メール送信"
+        }
+    },
+    "labels": {
+        "View Posts": "投稿を表示",
+        "View Activity": "アクティビティを表示",
+        "Pin": "ピン留め",
+        "Unpin": "ピン留め解除",
+        "Pinned": "ピン留め済み",
+        "Quote Reply": "引用返信"
+    },
+    "messages": {
+        "writeMessage": "ここにメッセージを入力してください",
+        "pinnedMaxCountExceeded": "これ以上ノートをピン留めできません。最大許容数は{count}です。"
+    },
+    "links": {
+        "portals": "ポータル",
+        "attachments": "添付ファイル",
+        "superParent": "親",
+        "related": "関連"
+    }
+}

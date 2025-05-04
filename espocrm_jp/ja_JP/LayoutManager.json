@@ -1,0 +1,58 @@
+{
+    "fields": {
+        "width": "幅",
+        "link": "リンク",
+        "notSortable": "ソート不可",
+        "align": "配置",
+        "panelName": "パネル名",
+        "style": "スタイル",
+        "sticked": "上部に固定",
+        "isMuted": "色を薄く",
+        "isLarge": "大きなフォントサイズ",
+        "hidden": "非表示",
+        "noLabel": "ラベルなし",
+        "dynamicLogicVisible": "パネル表示条件",
+        "dynamicLogicStyled": "スタイル適用条件",
+        "tabLabel": "タブラベル",
+        "tabBreak": "タブ区切り",
+        "noteText": "注記テキスト",
+        "noteStyle": "注記スタイル"
+    },
+    "options": {
+        "align": {
+            "left": "左",
+            "right": "右"
+        },
+        "style": {
+            "default": "デフォルト",
+            "success": "成功",
+            "danger": "危険",
+            "info": "情報",
+            "warning": "警告",
+            "primary": "プライマリ"
+        }
+    },
+    "labels": {
+        "New panel": "新規パネル",
+        "Layout": "レイアウト"
+    },
+    "messages": {
+        "alreadyExists": "レイアウト `{name}` は既に存在します。",
+        "createInfo": "カスタムリストレイアウトは関連パネルで使用できます。",
+        "cantBeEmpty": "レイアウトは空にできません。",
+        "fieldsIncompatible": "以下のフィールドは同じレイアウトに配置できません: {fields}"
+    },
+    "tooltips": {
+        "noteText": "パネルに表示するテキスト。Markdownがサポートされています。",
+        "tabBreak": "パネルと次のタブ区切りまでのすべてのパネルのための別タブ。",
+        "noLabel": "ヘッダーに列ラベルを表示しません。",
+        "notSortable": "列でのソートを無効にします。",
+        "width": "列の幅。通常は*Name*フィールドとなる、幅を指定しない列を1つ用意することを推奨します。",
+        "sticked": "パネルは上のパネルに固定されます。パネル間に隙間はありません。",
+        "hiddenPanel": "パネルを表示するには「もっと見る」をクリックする必要があります。",
+        "panelStyle": "パネルの色。",
+        "dynamicLogicVisible": "設定すると、条件を満たさない限りパネルは非表示になります。",
+        "dynamicLogicStyled": "特定の条件を満たすと色が適用されます。色は*Style*パラメータで定義されます。",
+        "link": "チェックすると、フィールドの値はレコードの詳細ビューへのリンクとして表示されます。通常は*Name*フィールドに使用されます。"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "fields": {
+        "status": "ステータス",
+        "processedCount": "処理済み数"
+    },
+    "options": {
+        "status": {
+            "Pending": "保留中",
+            "Running": "実行中",
+            "Success": "成功",
+            "Failed": "失敗"
+        }
+    },
+    "messages": {
+        "infoText": "一括処理はcronによってバックグラウンドで実行されています。完了までに時間がかかる場合があります。このモーダルダイアログを閉じても実行プロセスには影響しません。"
+    }
+}

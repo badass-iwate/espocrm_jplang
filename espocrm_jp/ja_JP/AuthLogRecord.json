@@ -1,0 +1,39 @@
+{
+    "fields": {
+        "username": "ユーザー名",
+        "ipAddress": "IPアドレス",
+        "requestTime": "リクエスト時間",
+        "createdAt": "リクエスト日時",
+        "isDenied": "拒否されたか",
+        "denialReason": "拒否理由",
+        "portal": "ポータル",
+        "user": "ユーザー",
+        "authToken": "認証トークン作成",
+        "requestUrl": "リクエストURL",
+        "requestMethod": "リクエストメソッド",
+        "authTokenIsActive": "認証トークンは有効か",
+        "authenticationMethod": "認証方法"
+    },
+    "links": {
+        "authToken": "認証トークン作成",
+        "user": "ユーザー",
+        "portal": "ポータル",
+        "actionHistoryRecords": "アクション履歴"
+    },
+    "presetFilters": {
+        "denied": "拒否",
+        "accepted": "許可"
+    },
+    "options": {
+        "denialReason": {
+            "CREDENTIALS": "無効な認証情報",
+            "WRONG_CODE": "誤ったコード",
+            "INACTIVE_USER": "非アクティブユーザー",
+            "IS_PORTAL_USER": "ポータルユーザー",
+            "IS_NOT_PORTAL_USER": "ポータルユーザーではない",
+            "USER_IS_NOT_IN_PORTAL": "ユーザーがポータルに関連付けられていない",
+            "IS_SYSTEM_USER": "システムユーザー",
+            "FORBIDDEN": "アクセス禁止"
+        }
+    }
+}

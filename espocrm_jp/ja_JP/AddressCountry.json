@@ -1,0 +1,20 @@
+{
+    "labels": {
+        "Create AddressCountry": "アドレス国を作成",
+        "Populate": "デフォルトを投入"
+    },
+    "fields": {
+        "code": "コード",
+        "isPreferred": "優先"
+    },
+    "tooltips": {
+        "code": "ISO 3166-1 alpha-2 コード。",
+        "isPreferred": "優先国は選択リストの最初に表示されます。"
+    },
+    "messages": {
+        "confirmPopulateDefaults": "既存の国はすべて削除され、デフォルトの国リストが作成されます。この操作は元に戻せません。\n\nよろしいですか？"
+    },
+    "strings": {
+        "populateDefaults": "デフォルトの国リストを投入する"
+    }
+}

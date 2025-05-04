@@ -1,0 +1,67 @@
+{
+    "fields": {
+        "dateFormat": "日付形式",
+        "timeFormat": "時刻形式",
+        "timeZone": "タイムゾーン",
+        "weekStart": "週の開始日",
+        "thousandSeparator": "千の区切り文字",
+        "decimalMark": "小数点記号",
+        "defaultCurrency": "デフォルト通貨",
+        "currencyList": "通貨リスト",
+        "language": "言語",
+        "exportDelimiter": "エクスポート区切り文字",
+        "receiveAssignmentEmailNotifications": "割り当て時のメール通知",
+        "receiveMentionEmailNotifications": "投稿での言及に関するメール通知",
+        "receiveStreamEmailNotifications": "投稿とステータス更新に関するメール通知",
+        "assignmentNotificationsIgnoreEntityTypeList": "アプリ内割り当て通知",
+        "assignmentEmailNotificationsIgnoreEntityTypeList": "メール割り当て通知",
+        "reactionNotifications": "リアクションに関するアプリ内通知",
+        "autoFollowEntityTypeList": "グローバル自動フォロー",
+        "signature": "メール署名",
+        "dashboardTabList": "タブリスト",
+        "defaultReminders": "デフォルトリマインダー",
+        "defaultRemindersTask": "タスクのデフォルトリマインダー",
+        "theme": "テーマ",
+        "useCustomTabList": "カスタムタブリスト",
+        "addCustomTabs": "カスタムタブを追加",
+        "tabList": "タブリスト",
+        "emailReplyToAllByDefault": "デフォルトで全員に返信",
+        "dashboardLayout": "ダッシュボードレイアウト",
+        "dashboardLocked": "ダッシュボードをロック",
+        "emailReplyForceHtml": "HTMLでメール返信",
+        "doNotFillAssignedUserIfNotRequired": "必須でない場合は担当者を事前入力しない",
+        "followEntityOnStreamPost": "ストリームに投稿後にレコードを自動フォロー",
+        "followCreatedEntities": "作成したレコードを自動フォロー",
+        "followCreatedEntityTypeList": "特定のエンティティタイプの作成レコードを自動フォロー",
+        "emailUseExternalClient": "外部メールクライアントを使用",
+        "textSearchStoringDisabled": "テキストフィルターの保存を無効化",
+        "calendarSlotDuration": "カレンダースロットの期間",
+        "calendarScrollHour": "カレンダーのスクロール時間"
+    },
+    "links": {},
+    "options": {
+        "weekStart": {
+            "0": "日曜日",
+            "1": "月曜日"
+        }
+    },
+    "labels": {
+        "Notifications": "通知",
+        "User Interface": "ユーザーインターフェース",
+        "Misc": "その他",
+        "Locale": "ロケール",
+        "Reset Dashboard to Default": "ダッシュボードをデフォルトにリセット"
+    },
+    "tooltips": {
+        "addCustomTabs": "チェックすると、カスタムタブがデフォルトタブに追加されます。チェックしない場合、カスタムタブがデフォルトタブの代わりに使用されます。",
+        "autoFollowEntityTypeList": "選択したエンティティタイプのすべての新規レコード（任意のユーザーによって作成された）を自動的にフォローします。システム内のすべてのレコードに関する情報をストリームで確認し、通知を受け取ることができます。",
+        "doNotFillAssignedUserIfNotRequired": "レコード作成時、フィールドが必須でない限り、担当者は自分自身で事前入力されません。",
+        "followCreatedEntities": "新規レコードを作成すると、他のユーザーに割り当てられた場合でも自動的にフォローされます。",
+        "followCreatedEntityTypeList": "選択したエンティティタイプの新規レコードを作成すると、他のユーザーに割り当てられた場合でも自動的にフォローされます。"
+    },
+    "tabFields": {
+        "label": "ラベル",
+        "iconClass": "アイコン",
+        "color": "色"
+    }
+}

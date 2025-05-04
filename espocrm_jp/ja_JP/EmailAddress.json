@@ -1,0 +1,14 @@
+{
+	"labels": {
+		"Primary": "プライマリ",
+		"Opted Out": "配信停止",
+		"Invalid": "無効"
+	},
+	"fields": {
+		"optOut": "配信停止",
+		"invalid": "無効"
+	},
+	"presetFilters": {
+		"orphan": "孤立"
+	}
+}

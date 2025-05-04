@@ -1,0 +1,41 @@
+{
+    "fields": {
+        "name": "名前",
+        "status": "ステータス",
+        "job": "ジョブ",
+        "scheduling": "スケジュール"
+    },
+    "links": {
+        "log": "ログ"
+    },
+    "labels": {
+        "As often as possible": "可能な限り頻繁に",
+        "Create ScheduledJob": "スケジュールジョブを作成"
+    },
+    "options": {
+        "job": {
+            "Cleanup": "クリーンアップ",
+            "CheckInboundEmails": "グループメールアカウントを確認",
+            "CheckEmailAccounts": "個人メールアカウントを確認",
+            "SendEmailReminders": "メールリマインダーを送信",
+            "AuthTokenControl": "認証トークン制御",
+            "SendEmailNotifications": "メール通知を送信",
+            "CheckNewVersion": "新バージョンを確認",
+            "ProcessWebhookQueue": "Webhookキューを処理",
+            "SendScheduledEmails": "スケジュールされたメールを送信"
+        },
+        "cronSetup": {
+            "linux": "注: Espoスケジュールジョブを実行するために、この行をcrontabファイルに追加してください:",
+            "mac": "注: Espoスケジュールジョブを実行するために、この行をcrontabファイルに追加してください:",
+            "windows": "注: Windowsスケジュールタスクを使用してEspoスケジュールジョブを実行するために、以下のコマンドを含むバッチファイルを作成してください:",
+            "default": "注: このコマンドをCronジョブ（スケジュールタスク）に追加してください:"
+        },
+        "status": {
+            "Active": "有効",
+            "Inactive": "無効"
+        }
+    },
+    "tooltips": {
+        "scheduling": "Crontab表記。ジョブの実行頻度を定義します。\n\n`*/5 * * * *` - 5分ごと\n\n`0 */2 * * *` - 2時間ごと\n\n`30 1 * * *` - 毎日01:30\n\n`0 0 1 * *` - 毎月1日"
+    }
+}

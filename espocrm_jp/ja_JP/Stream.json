@@ -1,0 +1,16 @@
+{
+    "messages": {
+        "infoMention": "投稿内でユーザーをメンションするには **@ユーザー名** と入力してください。",
+        "infoSyntax": "利用可能なMarkdown構文",
+        "couldNotAddFollowerUserHasNoAccessToStream": "ユーザー '{userName}' をフォロワーに追加できませんでした。このユーザーはレコードへの'ストリーム'アクセス権を持っていません。"
+    },
+    "syntaxItems": {
+        "code": "コード",
+        "multilineCode": "複数行のコード",
+        "strongText": "太字テキスト",
+        "emphasizedText": "強調テキスト",
+        "deletedText": "削除テキスト",
+        "blockquote": "引用",
+        "link": "リンクテキスト"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "labels": {
+        "Field": "フィールド"
+    },
+    "options": {
+        "operators": {
+            "equals": "等しい",
+            "notEquals": "等しくない",
+            "greaterThan": "より大きい",
+            "lessThan": "より小さい",
+            "greaterThanOrEquals": "以上",
+            "lessThanOrEquals": "以下",
+            "in": "含まれる",
+            "notIn": "含まれない",
+            "inPast": "過去",
+            "inFuture": "未来",
+            "isToday": "今日",
+            "isTrue": "真",
+            "isFalse": "偽",
+            "isEmpty": "空",
+            "isNotEmpty": "空でない",
+            "contains": "含む",
+            "notContains": "含まない",
+            "has": "含む",
+            "notHas": "含まない",
+            "startsWith": "で始まる",
+            "endsWith": "で終わる",
+            "matches": "一致する（正規表現）"
+        }
+    }
+}

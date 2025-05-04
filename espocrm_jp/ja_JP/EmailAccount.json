@@ -1,0 +1,65 @@
+{
+    "fields": {
+        "name": "名前",
+        "status": "ステータス",
+        "host": "ホスト",
+        "username": "ユーザー名",
+        "password": "パスワード",
+        "port": "ポート",
+        "monitoredFolders": "監視フォルダ",
+        "security": "セキュリティ",
+        "fetchSince": "取得開始日",
+        "emailAddress": "メールアドレス",
+        "sentFolder": "送信済みフォルダ",
+        "storeSentEmails": "送信済みメールを保存",
+        "keepFetchedEmailsUnread": "取得したメールを未読のままにする",
+        "emailFolder": "保存フォルダ",
+        "connectedAt": "接続日時",
+        "useImap": "メールを取得",
+        "useSmtp": "SMTPを使用",
+        "smtpHost": "SMTPホスト",
+        "smtpPort": "SMTPポート",
+        "smtpAuth": "SMTP認証",
+        "smtpSecurity": "SMTPセキュリティ",
+        "smtpAuthMechanism": "SMTP認証方式",
+        "smtpUsername": "SMTPユーザー名",
+        "smtpPassword": "SMTPパスワード"
+    },
+    "links": {
+        "filters": "フィルター",
+        "emails": "メール"
+    },
+    "options": {
+        "status": {
+            "Active": "有効",
+            "Inactive": "無効"
+        },
+        "smtpAuthMechanism": {
+            "plain": "PLAIN",
+            "login": "LOGIN",
+            "crammd5": "CRAM-MD5"
+        }
+    },
+    "labels": {
+        "Create EmailAccount": "メールアカウントを作成",
+        "IMAP": "IMAP",
+        "Main": "メイン",
+        "Test Connection": "接続テスト",
+        "Send Test Email": "テストメール送信",
+        "SMTP": "SMTP"
+    },
+    "presetFilters": {
+        "active": "有効"
+    },
+    "messages": {
+        "couldNotConnectToImap": "IMAPサーバーに接続できませんでした",
+        "connectionIsOk": "接続成功",
+        "imapNotConnected": "[IMAPアカウント](#EmailAccount/view/{id})に接続できませんでした。"
+    },
+    "tooltips": {
+        "useSmtp": "メール送信機能を有効にします。",
+        "emailAddress": "このメールアカウントで送信するには、ユーザーレコード（割り当てられたユーザー）が同じメールアドレスを持っている必要があります。",
+        "monitoredFolders": "複数のフォルダはカンマで区切ってください。\n\n外部メールクライアントから送信されたメールを同期するために「送信済み」フォルダを追加できます。",
+        "storeSentEmails": "送信済みメールはIMAPサーバーに保存されます。メールアドレスフィールドは、メールの送信元アドレスと一致している必要があります。"
+    }
+}

@@ -1,0 +1,111 @@
+{
+    "labels": {
+        "New import with same params": "同じパラメータで新規インポート",
+        "Revert Import": "インポートを元に戻す",
+        "Return to Import": "インポートに戻る",
+        "Run Import": "インポートを実行",
+        "Back": "戻る",
+        "Field Mapping": "フィールドマッピング",
+        "Default Values": "デフォルト値",
+        "Add Field": "フィールドを追加",
+        "Created": "作成済み",
+        "Updated": "更新済み",
+        "Result": "結果",
+        "Show records": "レコードを表示",
+        "Remove Duplicates": "重複を削除",
+        "importedCount": "インポート済み（件数）",
+        "duplicateCount": "重複（件数）",
+        "updatedCount": "更新済み（件数）",
+        "Create Only": "作成のみ",
+        "Create and Update": "作成と更新",
+        "Update Only": "更新のみ",
+        "Update by": "更新基準",
+        "Set as Not Duplicate": "重複でないと設定",
+        "File (CSV)": "ファイル（CSV）",
+        "First Row Value": "最初の行の値",
+        "Skip": "スキップ",
+        "Header Row Value": "ヘッダー行の値",
+        "Field": "フィールド",
+        "What to Import?": "何をインポートしますか？",
+        "Entity Type": "エンティティタイプ",
+        "What to do?": "何をしますか？",
+        "Properties": "プロパティ",
+        "Header Row": "ヘッダー行",
+        "Person Name Format": "人物名の形式",
+        "John Smith": "ジョン・スミス",
+        "Smith John": "スミス・ジョン",
+        "Smith, John": "スミス、ジョン",
+        "Field Delimiter": "フィールド区切り文字",
+        "Date Format": "日付形式",
+        "Decimal Mark": "小数点記号",
+        "Text Qualifier": "テキスト修飾子",
+        "Time Format": "時刻形式",
+        "Currency": "通貨",
+        "Preview": "プレビュー",
+        "Next": "次へ",
+        "Step 1": "ステップ1",
+        "Step 2": "ステップ2",
+        "Double Quote": "二重引用符",
+        "Single Quote": "一重引用符",
+        "Imported": "インポート済み",
+        "Duplicates": "重複",
+        "Skip searching for duplicates": "重複検索をスキップ",
+        "Timezone": "タイムゾーン",
+        "Remove Import Log": "インポートログを削除",
+        "New Import": "新規インポート",
+        "Import Results": "インポート結果",
+        "Run Manually": "手動実行",
+        "Silent Mode": "サイレントモード",
+        "Export": "エクスポート"
+    },
+    "messages": {
+        "importRunning": "インポート実行中...",
+        "noErrors": "エラーなし",
+        "utf8": "UTF-8エンコードである必要があります",
+        "duplicatesRemoved": "重複を削除しました",
+        "inIdle": "アイドル時に実行（大量データ用；cron経由）",
+        "revert": "これにより、インポートされたすべてのレコードが完全に削除されます。",
+        "removeDuplicates": "これにより、重複として認識されたインポートされたすべてのレコードが完全に削除されます。",
+        "confirmRevert": "これにより、インポートされたすべてのレコードが完全に削除されます。よろしいですか？",
+        "confirmRemoveDuplicates": "これにより、重複として認識されたインポートされたすべてのレコードが完全に削除されます。よろしいですか？",
+        "confirmRemoveImportLog": "これにより、インポートログが削除されます。インポートされたすべてのレコードは保持されます。インポート結果を元に戻すことはできなくなります。よろしいですか？",
+        "removeImportLog": "これにより、インポートログが削除されます。インポートされたすべてのレコードは保持されます。インポートが正常であると確信している場合に使用してください。"
+    },
+    "params": {
+        "phoneNumberCountry": "電話番号の国コード"
+    },
+    "fields": {
+        "file": "ファイル",
+        "entityType": "エンティティタイプ",
+        "imported": "インポート済みレコード",
+        "duplicates": "重複レコード",
+        "updated": "更新済みレコード",
+        "status": "ステータス"
+    },
+    "links": {
+        "errors": "エラー"
+    },
+    "options": {
+        "status": {
+            "Failed": "失敗",
+            "Standby": "待機中",
+            "Pending": "保留中",
+            "In Process": "処理中",
+            "Complete": "完了"
+        },
+        "personNameFormat": {
+            "f l": "名 姓",
+            "l f": "姓 名",
+            "f m l": "名 ミドルネーム 姓",
+            "l f m": "姓 名 ミドルネーム"
+        }
+    },
+    "strings": {
+        "commandToRun": "実行コマンド（CLIから）",
+        "saveAsDefault": "デフォルトとして保存"
+    },
+    "tooltips": {
+        "manualMode": "チェックすると、CLIから手動でインポートを実行する必要があります。インポートの設定後にコマンドが表示されます。",
+        "silentMode": "ほとんどの保存後スクリプトがスキップされ、ストリームノートは作成されません。インポートはより高速に実行されます。"
+    }
+}

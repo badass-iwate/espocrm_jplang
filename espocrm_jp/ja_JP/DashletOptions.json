@@ -1,0 +1,45 @@
+{
+    "fields": {
+        "title": "タイトル",
+        "dateFrom": "開始日",
+        "dateTo": "終了日",
+        "autorefreshInterval": "自動更新間隔",
+        "displayRecords": "表示レコード数",
+        "isDoubleHeight": "高さ2倍",
+        "mode": "モード",
+        "enabledScopeList": "表示対象",
+        "users": "ユーザー",
+        "entityType": "エンティティタイプ",
+        "primaryFilter": "プライマリフィルター",
+        "boolFilterList": "追加フィルター",
+        "sortBy": "並び順（フィールド）",
+        "sortDirection": "並び順（方向）",
+        "expandedLayout": "レイアウト",
+        "skipOwn": "自分のレコードを表示しない",
+        "url": "URL",
+        "dateFilter": "日付フィルター",
+        "text": "テキスト",
+        "folder": "フォルダ",
+        "includeShared": "共有を含む"
+    },
+    "options": {
+    	"mode": {
+    		"agendaWeek": "週（アジェンダ）",
+    		"basicWeek": "週",
+    		"month": "月",
+            "basicDay": "日",
+            "agendaDay": "日（アジェンダ）",
+            "timeline": "タイムライン"
+    	},
+        "sortDirection": {
+            "asc": "昇順",
+            "desc": "降順"
+        }
+    },
+    "messages": {
+        "selectEntityType": "ダッシュレットオプションでエンティティタイプを選択してください。"
+    },
+    "tooltips": {
+        "skipOwn": "自分のユーザーアカウントによるアクションは表示されません。"
+    }
+}

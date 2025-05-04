@@ -1,0 +1,98 @@
+{
+    "fields": {
+        "name": "名前",
+        "emailAddress": "メールアドレス",
+        "team": "対象チーム",
+        "status": "ステータス",
+        "assignToUser": "ユーザーに割り当て",
+        "host": "ホスト",
+        "username": "ユーザー名",
+        "password": "パスワード",
+        "port": "ポート",
+        "monitoredFolders": "監視フォルダ",
+        "trashFolder": "ゴミ箱フォルダ",
+        "security": "セキュリティ",
+        "createCase": "受信メールから自動的にケースを作成します。",
+        "reply": "自動返信",
+        "caseDistribution": "ケースの割り当て方法。ユーザーに直接割り当てるか、チーム内で割り当てます。",
+        "replyEmailTemplate": "返信メールテンプレート",
+        "replyFromAddress": "返信元アドレス",
+        "replyToAddress": "返信をこのメールボックスに送るために、このメールボックスのメールアドレスを指定します。",
+        "replyFromName": "返信元名",
+        "targetUserPosition": "指定された役職を持つユーザーにケースが配布されます。",
+        "fetchSince": "取得開始日",
+        "addAllTeamUsers": "メールは指定されたチームの全ユーザーの受信トレイに表示されます。",
+        "teams": "チーム",
+        "sentFolder": "送信済みフォルダ",
+        "storeSentEmails": "送信済みメールを保存",
+        "keepFetchedEmailsUnread": "取得したメールを未読のままにする",
+        "connectedAt": "接続日時",
+        "excludeFromReply": "このアカウントのメールアドレスに送信されたメールに返信する場合、そのメールアドレスはCCに追加されません。\n\nこのパラメータを有効にすると、このアカウントのメールアドレスは、メールを送信する権限を持つユーザーに公開されることに注意してください。",
+        "useImap": "メールを取得",
+        "useSmtp": "SMTPを使用",
+        "smtpHost": "SMTPホスト",
+        "smtpPort": "SMTPポート",
+        "smtpAuth": "SMTP認証",
+        "smtpSecurity": "SMTPセキュリティ",
+        "smtpAuthMechanism": "SMTP認証方式",
+        "smtpUsername": "SMTPユーザー名",
+        "smtpPassword": "SMTPパスワード",
+        "fromName": "差出人名",
+        "smtpIsShared": "チェックすると、ユーザーはこのSMTPを使用してメールを送信できます。可用性は、グループメールアカウントの権限を通じてロールによって制御されます。",
+        "smtpIsForMassEmail": "チェックすると、SMTPは一括メールで使用可能になります。",
+        "groupEmailFolder": "グループメールフォルダ",
+        "isSystem": "システム"
+    },
+    "tooltips": {
+        "isSystem": "システムメールアカウントです。",
+        "useSmtp": "メール送信機能を有効にします。",
+        "reply": "メール送信者にメールが受信されたことを通知します。\n\nループを防ぐため、特定の受信者に対して一定期間内に1通のみ送信されます。",
+        "createCase": "受信メールから自動的にケースを作成します。",
+        "replyToAddress": "返信をこのメールボックスに送るために、このメールボックスのメールアドレスを指定します。",
+        "caseDistribution": "ケースの割り当て方法。ユーザーに直接割り当てるか、チーム内で割り当てます。",
+        "assignToUser": "ケースが割り当てられるユーザー。",
+        "team": "ケースが割り当てられるチーム。",
+        "teams": "メールが割り当てられるチーム。",
+        "targetUserPosition": "指定された役職を持つユーザーにケースが配布されます。",
+        "addAllTeamUsers": "メールは指定されたチームの全ユーザーの受信トレイに表示されます。",
+        "monitoredFolders": "複数のフォルダはカンマで区切ってください。",
+        "smtpIsShared": "チェックすると、ユーザーはこのSMTPを使用してメールを送信できます。可用性は、グループメールアカウントの権限を通じてロールによって制御されます。",
+        "smtpIsForMassEmail": "チェックすると、SMTPは一括メールで使用可能になります。",
+        "storeSentEmails": "送信済みメールはIMAPサーバーに保存されます。",
+        "groupEmailFolder": "受信メールをグループフォルダに入れます。",
+        "excludeFromReply": "このアカウントのメールアドレスに送信されたメールに返信する場合、そのメールアドレスはCCに追加されません。\n\nこのパラメータを有効にすると、このアカウントのメールアドレスは、メールを送信する権限を持つユーザーに公開されることに注意してください。"
+    },
+    "links": {
+        "filters": "フィルター",
+        "emails": "メール",
+        "assignToUser": "ユーザーに割り当て",
+        "groupEmailFolder": "グループメールフォルダ"
+    },
+    "options": {
+        "status": {
+            "Active": "有効",
+            "Inactive": "無効"
+        },
+        "caseDistribution": {
+            "": "なし",
+            "Direct-Assignment": "直接割り当て",
+            "Round-Robin": "ラウンドロビン",
+            "Least-Busy": "最も空いている"
+        },
+        "smtpAuthMechanism": {
+            "plain": "PLAIN",
+            "login": "LOGIN",
+            "crammd5": "CRAM-MD5"
+        }
+    },
+    "labels": {
+        "Create InboundEmail": "メールアカウントを作成",
+        "IMAP": "IMAP",
+        "Actions": "アクション",
+        "Main": "メイン"
+    },
+    "messages": {
+        "couldNotConnectToImap": "IMAPサーバーに接続できませんでした",
+        "imapNotConnected": "グループ[IMAPアカウント](#InboundEmail/view/{id})に接続できませんでした。"
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "fields": {
+        "enabled": "有効",
+        "clientId": "クライアントID",
+        "clientSecret": "クライアントシークレット",
+        "redirectUri": "リダイレクトURI",
+        "apiKey": "APIキー",
+        "siteKey": "サイトキー",
+        "secretKey": "シークレットキー",
+        "scoreThreshold": "スコアしきい値",
+        "name": "名前",
+        "type": "タイプ",
+        "status": "ステータス",
+        "lastSync": "最終同期",
+        "lastError": "最終エラー",
+        "lastErrorMessage": "最終エラーメッセージ",
+        "lastErrorTime": "最終エラー時刻",
+        "lastErrorCount": "最終エラー回数",
+        "lastErrorData": "最終エラーデータ",
+        "lastErrorStack": "最終エラースタック",
+        "lastErrorHttpCode": "最終エラーHTTPコード",
+        "lastErrorHttpMessage": "最終エラーHTTPメッセージ",
+        "lastErrorHttpHeaders": "最終エラーHTTPヘッダー",
+        "lastErrorHttpBody": "最終エラーHTTPボディ",
+        "lastErrorHttpUrl": "最終エラーHTTP URL",
+        "lastErrorHttpMethod": "最終エラーHTTPメソッド",
+        "lastErrorHttpQuery": "最終エラーHTTPクエリ",
+        "lastErrorHttpRequest": "最終エラーHTTPリクエスト",
+        "lastErrorHttpResponse": "最終エラーHTTPレスポンス",
+        "lastErrorHttpStatus": "最終エラーHTTPステータス",
+        "lastErrorHttpStatusCode": "最終エラーHTTPステータスコード",
+        "lastErrorHttpStatusMessage": "最終エラーHTTPステータスメッセージ",
+        "lastErrorHttpStatusText": "最終エラーHTTPステータステキスト",
+        "lastErrorHttpStatusType": "最終エラーHTTPステータスタイプ",
+        "lastErrorHttpStatusCategory": "最終エラーHTTPステータスカテゴリ",
+        "lastErrorHttpStatusSubcategory": "最終エラーHTTPステータスサブカテゴリ",
+        "lastErrorHttpStatusDetail": "最終エラーHTTPステータス詳細"
+    },
+    "titles": {
+        "GoogleMaps": "Google マップ",
+        "GoogleReCaptcha": "Google reCAPTCHA"
+    },
+    "messages": {
+        "selectIntegration": "メニューから統合を選択してください。",
+        "noIntegrations": "利用可能な統合はありません。"
+    },
+    "help": {
+        "GoogleReCaptcha": "サイトキーとシークレットキーは[Google](https://www.google.com/recaptcha/)から取得してください。",
+        "Google": "**Google Developers ConsoleからOAuth 2.0認証情報を取得してください。**\n\n[Google Developers Console](https://console.developers.google.com/project)にアクセスして、GoogleとEspoCRMアプリケーションの両方で使用するクライアントIDやクライアントシークレットなどのOAuth 2.0認証情報を取得してください。",
+        "GoogleMaps": "APIキーは[こちら](https://developers.google.com/maps/documentation/javascript/get-api-key)から取得してください。"
+    }
+}

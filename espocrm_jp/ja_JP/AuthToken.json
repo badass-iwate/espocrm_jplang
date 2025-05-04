@@ -1,0 +1,23 @@
+{
+    "fields": {
+        "user": "ユーザー",
+        "ipAddress": "IPアドレス",
+        "lastAccess": "最終アクセス日時",
+        "createdAt": "ログイン日時",
+        "isActive": "アクティブ",
+        "portal": "ポータル"
+    },
+    "links": {
+        "actionHistoryRecords": "アクション履歴"
+    },
+    "presetFilters": {
+        "active": "アクティブ",
+        "inactive": "非アクティブ"
+    },
+    "labels": {
+        "Set Inactive": "非アクティブに設定"
+    },
+    "massActions": {
+        "setInactive": "非アクティブに設定"
+    }
+}

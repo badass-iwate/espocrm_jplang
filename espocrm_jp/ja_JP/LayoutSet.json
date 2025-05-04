@@ -1,0 +1,11 @@
+{
+    "fields": {
+        "layoutList": "レイアウト"
+    },
+    "labels": {
+        "Create LayoutSet": "レイアウトセットを作成",
+        "Edit Layouts": "レイアウトを編集"
+    },
+    "tooltips": {
+    }
+}

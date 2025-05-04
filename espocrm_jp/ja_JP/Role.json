@@ -1,0 +1,71 @@
+{
+    "fields": {
+        "name": "名前",
+        "roles": "ロール",
+        "assignmentPermission": "割り当て権限",
+        "userPermission": "ユーザー権限",
+        "messagePermission": "メッセージ権限",
+        "portalPermission": "ポータル権限",
+        "groupEmailAccountPermission": "グループメールアカウント権限",
+        "exportPermission": "エクスポート権限",
+        "massUpdatePermission": "一括更新権限",
+        "followerManagementPermission": "フォロワー管理権限",
+        "dataPrivacyPermission": "データプライバシー権限",
+        "auditPermission": "監査権限",
+        "mentionPermission": "メンション権限",
+        "userCalendarPermission": "ユーザーカレンダー権限",
+        "data": "データ",
+        "fieldData": "フィールドデータ"
+    },
+    "links": {
+        "users": "ユーザー",
+        "teams": "チーム"
+    },
+    "tooltips": {
+        "messagePermission": "他のユーザーにメッセージを送信できます。\n\n* all – 全員に送信可能\n* team – チームメンバーのみに送信可能\n* no – 送信不可",
+        "assignmentPermission": "レコードを他のユーザーに割り当てることができます。\n\n* all – 制限なし\n* team – チームメンバーのみに割り当て可能\n* no – 自分自身にのみ割り当て可能",
+        "userPermission": "他のユーザーのストリームを表示できます。特定のレコードに対する他のユーザーのアクセスレベルを表示できます。",
+        "userCalendarPermission": "他のユーザーのカレンダーを表示できます。",
+        "portalPermission": "ポータル情報へのアクセス、ポータルユーザーへのメッセージ投稿が可能です。",
+        "groupEmailAccountPermission": "グループメールアカウントへのアクセス、グループSMTPからのメール送信が可能です。",
+        "exportPermission": "レコードをエクスポートできます。",
+        "massUpdatePermission": "レコードの一括更新を実行できます。",
+        "followerManagementPermission": "特定のレコードのフォロワーを管理できます。",
+        "dataPrivacyPermission": "個人データの表示と消去が可能です。",
+        "auditPermission": "監査ログを表示できます。",
+        "mentionPermission": "ストリームで他のユーザーをメンションできます。\n\n* all – 全員をメンション可能\n* team – チームメンバーのみをメンション可能\n* no – メンション不可"
+    },
+    "labels": {
+        "Access": "アクセス",
+        "Create Role": "ロールを作成",
+        "Scope Level": "スコープレベル",
+        "Field Level": "フィールドレベル"
+    },
+    "options": {
+        "accessList": {
+            "not-set": "未設定",
+            "enabled": "有効",
+            "disabled": "無効"
+        },
+        "levelList": {
+            "all": "すべて",
+            "team": "チーム",
+            "account": "アカウント",
+            "contact": "連絡先",
+            "own": "自分のみ",
+            "no": "不可",
+            "yes": "可",
+            "not-set": "未設定"
+        }
+    },
+    "actions": {
+        "read": "読み取り",
+        "edit": "編集",
+        "delete": "削除",
+        "stream": "ストリーム",
+        "create": "作成"
+    },
+    "messages": {
+        "changesAfterClearCache": "アクセス制御の変更は、キャッシュがクリアされた後に適用されます。"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "fields": {
+        "name": "名前",
+        "body": "本文",
+        "entityType": "エンティティタイプ",
+        "header": "ヘッダー",
+        "footer": "フッター",
+        "leftMargin": "左余白",
+        "topMargin": "上余白",
+        "rightMargin": "右余白",
+        "bottomMargin": "下余白",
+        "printFooter": "フッターを印刷",
+        "printHeader": "ヘッダーを印刷",
+        "footerPosition": "フッター位置",
+        "headerPosition": "ヘッダー位置",
+        "variables": "利用可能なプレースホルダー",
+        "pageOrientation": "用紙の向き",
+        "pageFormat": "用紙サイズ",
+        "pageWidth": "用紙幅（mm）",
+        "pageHeight": "用紙高さ（mm）",
+        "fontFace": "フォント",
+        "title": "タイトル",
+        "style": "スタイル"
+    },
+    "links": {},
+    "labels": {
+        "Create Template": "テンプレートを作成"
+    },
+    "options": {
+        "pageOrientation": {
+            "Portrait": "縦",
+            "Landscape": "横"
+        },
+        "pageFormat": {
+            "Custom": "カスタム"
+        },
+        "placeholders": {
+            "pagebreak": "改ページ",
+            "today": "今日（日付）",
+            "now": "現在（日時）"
+        },
+        "fontFace": {}
+    },
+    "tooltips": {
+        "footer": "ページ番号を印刷するには {pageNumber} を使用してください。",
+        "variables": "必要なプレースホルダーをヘッダー、本文、またはフッターにコピー＆ペーストしてください。"
+    }
+}

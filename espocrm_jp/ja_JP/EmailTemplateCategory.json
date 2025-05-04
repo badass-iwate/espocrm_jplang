@@ -1,0 +1,14 @@
+{
+    "labels": {
+        "Create EmailTemplateCategory": "カテゴリを作成",
+        "Manage Categories": "カテゴリの管理",
+        "EmailTemplates": "メールテンプレート"
+    },
+    "fields": {
+        "order": "順序",
+        "childList": "子リスト"
+    },
+    "links": {
+        "emailTemplates": "メールテンプレート"
+    }
+}

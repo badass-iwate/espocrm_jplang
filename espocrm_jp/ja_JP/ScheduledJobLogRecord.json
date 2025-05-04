@@ -1,0 +1,7 @@
+{
+    "fields": {
+        "status": "ステータス",
+        "executionTime": "実行時間",
+        "target": "ターゲット"
+    }
+}
